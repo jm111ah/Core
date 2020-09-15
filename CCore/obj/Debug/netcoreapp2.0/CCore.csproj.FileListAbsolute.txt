@@ -1,0 +1,16 @@
+E:\Gits\CCore\bin\Debug\netcoreapp2.0\appsettings.Development.json
+E:\Gits\CCore\bin\Debug\netcoreapp2.0\appsettings.json
+E:\Gits\CCore\bin\Debug\netcoreapp2.0\bundleconfig.json
+E:\Gits\CCore\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\Gits\CCore\bin\Debug\netcoreapp2.0\CCore.deps.json
+E:\Gits\CCore\bin\Debug\netcoreapp2.0\CCore.runtimeconfig.json
+E:\Gits\CCore\bin\Debug\netcoreapp2.0\CCore.runtimeconfig.dev.json
+E:\Gits\CCore\bin\Debug\netcoreapp2.0\CCore.dll
+E:\Gits\CCore\bin\Debug\netcoreapp2.0\CCore.pdb
+E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.csprojAssemblyReference.cache
+E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.AssemblyInfoInputs.cache
+E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.AssemblyInfo.cs
+E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.csproj.CoreCompileInputs.cache
+E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.dll
+E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.pdb
+E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.genruntimeconfig.cache

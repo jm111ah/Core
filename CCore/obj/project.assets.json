@@ -5966,12 +5966,13 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "nIxenBltXaUrU/hL0Xr1Yo1XrU5aaAV57bLyTjh9KHdN/oaUDREm83QrR7PmaXG+iYtAK6jFD3AMkFz9vWwzVA==",
+      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
@@ -13033,23 +13034,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Q219096\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\C#\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Gits\\CCore\\CCore\\CCore.csproj",
+      "projectUniqueName": "E:\\Gits\\CCore\\CCore.csproj",
       "projectName": "CCore",
-      "projectPath": "D:\\Gits\\CCore\\CCore\\CCore.csproj",
-      "packagesPath": "C:\\Users\\Q219096\\.nuget\\packages\\",
-      "outputPath": "D:\\Gits\\CCore\\CCore\\obj\\",
+      "projectPath": "E:\\Gits\\CCore\\CCore.csproj",
+      "packagesPath": "C:\\Users\\C#\\.nuget\\packages\\",
+      "outputPath": "E:\\Gits\\CCore\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Q219096\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\C#\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13078,16 +13075,23 @@
             "version": "[2.0.9, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
