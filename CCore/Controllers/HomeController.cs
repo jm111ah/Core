@@ -15,6 +15,19 @@ namespace CCore.Controllers
             return View();
         }
 
-  
+        public IActionResult Charp()
+        {
+            return View();
+        }
+
+        public IActionResult Core()
+        {
+            return View();
+        }
+
+        public IActionResult JavaScript()
+        {
+            return View();
+        }
     }
 }
