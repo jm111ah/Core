@@ -14,3 +14,14 @@ E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.csproj.CoreCompileInputs.cache
 E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.dll
 E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.pdb
 E:\Gits\CCore\obj\Debug\netcoreapp2.0\CCore.genruntimeconfig.cache
+D:\Gits\cccc\CCore\bin\Debug\netcoreapp2.0\CCore.deps.json
+D:\Gits\cccc\CCore\bin\Debug\netcoreapp2.0\CCore.runtimeconfig.json
+D:\Gits\cccc\CCore\bin\Debug\netcoreapp2.0\CCore.runtimeconfig.dev.json
+D:\Gits\cccc\CCore\bin\Debug\netcoreapp2.0\CCore.dll
+D:\Gits\cccc\CCore\bin\Debug\netcoreapp2.0\CCore.pdb
+D:\Gits\cccc\CCore\obj\Debug\netcoreapp2.0\CCore.csproj.CoreCompileInputs.cache
+D:\Gits\cccc\CCore\obj\Debug\netcoreapp2.0\CCore.AssemblyInfoInputs.cache
+D:\Gits\cccc\CCore\obj\Debug\netcoreapp2.0\CCore.AssemblyInfo.cs
+D:\Gits\cccc\CCore\obj\Debug\netcoreapp2.0\CCore.dll
+D:\Gits\cccc\CCore\obj\Debug\netcoreapp2.0\CCore.pdb
+D:\Gits\cccc\CCore\obj\Debug\netcoreapp2.0\CCore.csprojAssemblyReference.cache
