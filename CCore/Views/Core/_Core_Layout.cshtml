@@ -64,6 +64,10 @@
             height: 300px;
         }
         /*가운데 내용 끝*/
+
+        h6 {
+            padding-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -91,16 +95,13 @@
         </div>
         @*BooStrap DropDown 끝*@
     </nav>
-    <div>
-        @RenderBody()
-    </div>
 
     <!-- 사이드바 -->
     <div id="page-wrapper">
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">C#</a>
+                    <a href="#">ASP.NET Core</a>
                 </li>
                 <li><a asp-controller="Core" asp-action="Core_1">ASP.NET Core 이란?</a></li>
                 <li><a asp-controller="Core" asp-action="Core_2">메뉴 2</a></li>
@@ -115,13 +116,14 @@
         </div>
     </div>
     <!-- /사이드바 -->
-    @*<div class="navbar navbar-default navbar-fixed-bottom">
-            <div class="conteainer-fulid">
-                <span class="navbar-text">
 
-                </span>
-            </div>
-        </div>*@
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+
 
 
 
