@@ -64,6 +64,9 @@
             height: 300px;
         }
         /*가운데 내용 끝*/
+        img {
+            background-color: blueviolet;
+        }
     </style>
 </head>
 <body>
@@ -71,25 +74,34 @@
         @*홈 버튼 시작*@
         <div class="conteainer-fulid">
             <div class="navbar-header">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">개발</a>
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index"><img src="~/images/dokky.png" /></a>
             </div>
         </div>
         @*홈 버튼 끝*@
         @*BootStrap DropDown 시작*@
         <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">프로그래밍 언어</button>
+            <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">프로그래밍 언어</button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" asp-controller="Charp" asp-action="Charp_1">C#</a>
                 <a class="dropdown-item" asp-controller="Core" asp-action="Core_1">ASP.NET Core</a>
                 <a class="dropdown-item" asp-controller="JavaScript" asp-action="JavaScript_1">JavaScript</a>
             </div>
         </div>
-        <div class="conteainer-fulid">
-            <div class="navbar-header">
-                @*<a class="navbar-brand" asp-controller="Home" asp-action="Index">로그인</a>*@
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">네트워크</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" asp-controller="" asp-action="">프로토콜</a>
             </div>
         </div>
         @*BooStrap DropDown 끝*@
+        @*우측 로그인 로그아웃 시작*@
+        <div class="conteainer-fulid" style="position:absolute; right:0;">
+            <div class="navbar-header">
+                <a class="btn btn-info" asp-controller="Home" asp-action="Login">로그인</a>
+                <a class="btn btn-info" asp-controller="Home" asp-action="Sign">회원가입</a>
+            </div>
+        </div>
+        @*우측 로그인 로그아웃 끝*@
     </nav>
 
     <!-- 사이드바 -->

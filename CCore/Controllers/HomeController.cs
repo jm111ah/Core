@@ -10,6 +10,8 @@ namespace CCore.Controllers
 {
     public class HomeController : Controller
     {
+
+
         public IActionResult Index()
         {
             return View();
@@ -19,6 +21,14 @@ namespace CCore.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Login(Login login)
+        {
+
+            return View();
+        }
+
 
         public IActionResult Sign()
         {
