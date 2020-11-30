@@ -1,0 +1,16 @@
+.vs/CCore/v15/.suo
+.vs/CCore/v15/Server/sqlite3/db.lock
+.vs/CCore/v15/Server/sqlite3/storage.ide
+.vs/CCore/v15/Server/sqlite3/storage.ide-shm
+.vs/CCore/v15/Server/sqlite3/storage.ide-wal
+.vs/config/applicationhost.config
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
+.vs/
+AspnetCoreStudy/obj/
+AspnetCoreStudy/bin/
+AspnetCoreStudy/bower_components/
+AspnetCoreStudy/wwwroot/lib/jquery/
+information.txt

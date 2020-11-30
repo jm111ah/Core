@@ -8,6 +8,7 @@ namespace CCore.Models
 {
     public class Login
     {
+
         [Required(ErrorMessage = "Email 을 입력해주세요.")] // not null 처리
         //[MaxLength((30),ErrorMessage = "30글자이하로 입력해주세요.")]
         public string Email { get; set; }
@@ -16,5 +17,7 @@ namespace CCore.Models
         public string Name { get; set; }
 
         public string Phone { get; set; }
+
+   
     }
 }

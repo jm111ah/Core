@@ -12,5 +12,15 @@ namespace CCore.Controllers
         {
             return View();
         }
+
+        public IActionResult EF()
+        {
+            return View();
+        }
+
+        public IActionResult LINQ()
+        {
+            return View();
+        }
     }
 }
