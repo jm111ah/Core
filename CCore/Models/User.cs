@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CCore.Models
 {
-    public class Login
+    public class User
     {
 
         [Required(ErrorMessage = "Email 을 입력해주세요.")] // not null 처리
