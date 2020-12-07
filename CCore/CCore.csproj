@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Views\Charp\Charp_2.cshtml">
+    <Content Update="Views\Charp\Using.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
     <Content Update="Views\Core\LINQ.cshtml">
