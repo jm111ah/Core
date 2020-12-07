@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CCore.Models;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -7,17 +8,18 @@ using System.Threading.Tasks;
 
 namespace CCore.Lib
 {
-    public class Login
+    public class Sign
     {
-        protected string Result = string.Empty;
+        protected bool Result = false;
         protected string DBConnection = string.Empty;
         protected string Sql = string.Empty;
         protected DataTable dt = new DataTable();
+        User user = new User();
 
-        public string LoginCheck(string Email , string PassWord)
+        public bool LoginCheck(User info)
         {
             DBConnection = "Data Source=127.0.0.1;Integrated Security=no;Database=DB명;Password=PassWord;User ID=UserID;Pooling=true;Min Pool Size=5;Connect Timeout=30;";
-            Sql = "";
+            Sql = "select * from test where Email = '' and PassWord = '' ";
             using (SqlConnection connection = new SqlConnection(DBConnection))
             {
                 connection.Open();
@@ -28,16 +30,22 @@ namespace CCore.Lib
 
                 if (dt.Rows.Count < 1)
                 {
-                    Result = "False";
+                    Result = false;
                 }
                 else
                 {
-                    Result = "True";
+                    Result = true;
                 }
             }
 
 
 
+
+            return Result;
+        }
+
+        public bool SignUp(User info)
+        {
 
             return Result;
         }

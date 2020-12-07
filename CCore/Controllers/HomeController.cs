@@ -11,8 +11,10 @@ namespace CCore.Controllers
 {
     public class HomeController : Controller
     {
-        protected Login login = new Login();
-        protected string Result = string.Empty;
+        protected Sign sign = new Sign();
+        protected User user = new User();
+        protected bool Result = false;
+
 
         public IActionResult Index()
         {
@@ -27,22 +29,43 @@ namespace CCore.Controllers
         [HttpPost]
         public IActionResult Login(User info)
         {
-            Result = login.LoginCheck(info.Email , info.PW);
-
-            if (Result == "True")
+            if (ModelState.IsValid)
             {
+                Result = sign.LoginCheck(info);
+
 
             }
-            
 
             return View();
         }
-
 
         public IActionResult Sign()
         {
             return View();
         }
+
+        [HttpPost]
+      public  IActionResult Sign(User info)
+        {
+            if (ModelState.IsValid)
+            {
+                Result = sign.SignUp(info);
+            }
+
+            return View();
+        }
+
+       public IActionResult Community()
+        {
+            return View();
+        }
+
+        public IActionResult QA()
+        {
+            return View();
+        }
+
+
 
     }
 }

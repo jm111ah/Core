@@ -3,8 +3,46 @@
     Layout = "~/Shared/_Layout.cshtml";
 }
 
+@using CCore.Models
+@model User
+
+<form asp-controller="Home" asp-action="Sign" method="post" class="form form-horizontal">
+
+    <div class="row text-center" style="width:100%">
+        <div style="width:50%; float:none; margin:0 auto">
+            <div class="form-group">
+                <img src="https://image.ibb.co/iKfYKx/computer.jpg" />
+            </div>
+            <div class="form-group">
+                <div class="col-md-pull-10">
+                    <input type="text" class="form-control" id="Email" asp-for="Email" placeholder="Email" />
+                    <span class="text-danger" asp-validation-for="Email"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-pull-10">
+                    <input type="text" class="form-control" id="Email" asp-for="Name" placeholder="Name" />
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-pull-10">
+                    <input type="text" class="form-control" id="Email" asp-for="PW" placeholder="PassWord" />
+                    <span class="text-danger" asp-validation-for="PW"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-pull-10">
+                    <input type="text" class="form-control" id="Email" asp-for="Phone" placeholder="Phone" />
+                    <span class="text-danger" asp-validation-for="Phone"></span>
+                </div>
+            </div>
+            <br />
+            <button type="submit" class="btn btn-danger">확인</button>
+            <button asp-controller="Home" asp-action="Index" type="button" class="btn btn-danger">취소</button>
+        </div>
+    </div>
 
 
-
-
+</form>
 
