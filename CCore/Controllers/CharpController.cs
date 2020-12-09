@@ -13,8 +13,13 @@ namespace CCore.Controllers
         {
             return View();
         }
-        // using 문
+        // C# 기본 자료형
         public IActionResult Charp_2()
+        {
+            return View();
+        }
+        // C# 변수
+        public IActionResult Charp_3()
         {
             return View();
         }

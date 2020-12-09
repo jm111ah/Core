@@ -96,6 +96,13 @@
                 <a class="dropdown-item" asp-controller="" asp-action="">프로토콜</a>
             </div>
         </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">커뮤니티</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" asp-controller="Home" asp-action="Community">자유게시판</a>
+                <a class="dropdown-item" asp-controller="Home" asp-action="QA">질문/답변</a>
+            </div>
+        </div>
         @*BooStrap DropDown 끝*@
         @*우측 로그인 로그아웃 시작*@
         <div class="conteainer-fulid" style="position:absolute; right:0;">
@@ -115,8 +122,8 @@
                     <a href="#">C#</a>
                 </li>
                 <li><a asp-controller="Charp" asp-action="Charp_1">C# 이란?</a></li>
-                <li><a asp-controller="Charp" asp-action="Charp_2">using 문</a></li>
-                <li><a asp-controller="Charp" asp-action="Charp_3">메뉴 3</a></li>
+                <li><a asp-controller="Charp" asp-action="Charp_2">C# 기본자료형</a></li>
+                <li><a asp-controller="Charp" asp-action="Charp_3">C# 변수</a></li>
                 <li><a href="#">메뉴 4</a></li>
                 <li><a href="#">메뉴 5</a></li>
                 <li><a href="#">메뉴 6</a></li>

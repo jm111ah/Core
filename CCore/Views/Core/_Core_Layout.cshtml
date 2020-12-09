@@ -93,6 +93,13 @@
                 <a class="dropdown-item" asp-controller="" asp-action="">프로토콜</a>
             </div>
         </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">커뮤니티</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" asp-controller="Home" asp-action="Community">자유게시판</a>
+                <a class="dropdown-item" asp-controller="Home" asp-action="QA">질문/답변</a>
+            </div>
+        </div>
         @*BooStrap DropDown 끝*@
         @*우측 로그인 로그아웃 시작*@
         <div class="conteainer-fulid" style="position:absolute; right:0;">
