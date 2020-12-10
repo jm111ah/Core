@@ -23,5 +23,15 @@ namespace CCore.Controllers
         {
             return View();
         }
+        // C# 연산자
+        public IActionResult Charp_4()
+        {
+            return View();
+        }
+        // C# 조건문
+        public IActionResult Charp_5()
+        {
+            return View();
+        }
     }
 }
