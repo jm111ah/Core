@@ -14,6 +14,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="Views\Charp\Charp_6.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Charp\Charp_5.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
     <Content Update="Views\Charp\Charp_4.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>

@@ -33,5 +33,11 @@ namespace CCore.Controllers
         {
             return View();
         }
+        // C# 반복문
+        public IActionResult Charp_6()
+        {
+            return View();
+        }
+        
     }
 }
