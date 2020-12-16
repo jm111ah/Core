@@ -38,6 +38,11 @@ namespace CCore.Controllers
         {
             return View();
         }
-        
+        // C# 클래스
+        public IActionResult Charp_7()
+        {
+            return View();
+        }
+
     }
 }
